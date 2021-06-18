@@ -1,7 +1,0 @@
-README.md
-setup.py
-cdk_3_ta/cdk_3_ta.egg-info/PKG-INFO
-cdk_3_ta/cdk_3_ta.egg-info/SOURCES.txt
-cdk_3_ta/cdk_3_ta.egg-info/dependency_links.txt
-cdk_3_ta/cdk_3_ta.egg-info/requires.txt
-cdk_3_ta/cdk_3_ta.egg-info/top_level.txt
