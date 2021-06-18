@@ -16,6 +16,7 @@ This project is a simple example of how to create in Python a classic Web 3 Tier
 - All architecture is contained in one VPC and it is in High Availability using two Availability Zones
 - Admin access to EC2 instances is only allowed via Session Manager Session. No open inbound ports and no need to manage bastion hosts or SSH keys (see https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html)
 - Application logic is provided by some simple code in Pythoin using Flask (see https://flask.palletsprojects.com/en/2.0.x/)
+- RDS connectivity credentials and path stored using AWS Secret Manager (https://aws.amazon.com/secrets-manager/)
 
 # Installation
 
