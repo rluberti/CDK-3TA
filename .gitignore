@@ -3,7 +3,6 @@ __pycache__
 .venv
 .vscode
 *.DS_Store
-*.egg-info
 # CDK asset staging directory
 .cdk.staging
 cdk.out
