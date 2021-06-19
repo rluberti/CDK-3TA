@@ -18,7 +18,14 @@ This project is a simple example of how to create in Python a classic Web 3 Tier
 - Application logic is provided by some simple code in Pythoin using Flask (see https://flask.palletsprojects.com/en/2.0.x/)
 - RDS connectivity credentials and path stored using AWS Secret Manager (https://aws.amazon.com/secrets-manager/)
 
-# Installation
+# Installation using AWS Cloud Shell
+- Open Cloud Shell terminal from your AWS Console (see ..)
+- Install CDK CLI
+  -- sudo npm install -g aws-cdk
+- Install Python packages
+  -- pip3 install -r requirements.txt
+- Create Python Virtual Environment
+  -- 
 
 # Usage
 - Use http://<Application Load Balancer DNS>/ to hit the Web tier only and get its output
