@@ -1,7 +1,7 @@
 
-from WebTier import WebTierEC2
-from AppTier import AppTierEC2
-from DataTier import MySQLRDS
+from cdk_3_ta.WebTier import WebTierEC2
+from cdk_3_ta.AppTier import AppTierEC2
+from cdk_3_ta.DataTier import MySQLRDS
 import aws_cdk.core as cdk
 import aws_cdk.aws_ec2 as ec2
 import aws_cdk.aws_logs as log
