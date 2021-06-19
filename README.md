@@ -19,13 +19,32 @@ This project is a simple example of how to create in Python a classic Web 3 Tier
 - RDS connectivity credentials and path stored using AWS Secret Manager (https://aws.amazon.com/secrets-manager/)
 
 # Installation using AWS Cloud Shell
-- Open Cloud Shell terminal from your AWS Console (see ..)
-- Install CDK CLI
-  -- sudo npm install -g aws-cdk
+
+## Requirements
+- AWS CLI (see https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html) or just use AWS Cloud Shell (see https://aws.amazon.com/cloudshell/)
+- CDK (see https://docs.aws.amazon.com/cdk/latest/guide/cli.html)
+- Python 3.x 
+- git
+## Steps
+- Clone repository
+  -- git clone https://github.com/rluberti/CDK-3TA.git
+- Create Python Virtual Environment
+  -- cd CDK-3TA
+  -- python3 -m venv .venv
+- Run Virtual Environment
+  -- source .venv/bin/activate
 - Install Python packages
   -- pip3 install -r requirements.txt
-- Create Python Virtual Environment
-  -- 
+- Check if CDK can create CloudFormation code running:
+  -- cdk synth
+- Create Stack deploying the code on AWS:
+  -- cdk deploy
+  -- It will display the following information:
+     --  
+- Delete Stack
+  -- cdk destroy
+
+
 
 # Usage
 - Use http://<Application Load Balancer DNS>/ to hit the Web tier only and get its output
