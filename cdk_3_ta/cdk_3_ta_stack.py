@@ -71,13 +71,13 @@ class Cdk3TaStack(cdk.Stack):
 
         
 
-        # dbTierRDS = MySQLRDS(   stack=self,vpc=myVpc,
-        #                         hostType="t2.micro",
-        #                         dbName="db3ta",
-        #                         dbGbSize=5,
-        #                         securityGroup=rdsSecurityGroup)
+        dbTierRDS = MySQLRDS(   stack=self,vpc=myVpc,
+                                hostType="t2.micro",
+                                dbName="db3ta",
+                                dbGbSize=5,
+                                securityGroup=rdsSecurityGroup)
 
-        dbAccessSecretName = "myfakesecret" #dbTierRDS.getSecretName()
+        dbAccessSecretName = dbTierRDS.getSecretName()
 
         appTierEC2 = AppTierEC2(stack=self,vpc=myVpc,hostType="t2.micro",
                                 dbAccessSecretName=dbAccessSecretName,
