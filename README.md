@@ -18,7 +18,7 @@ This project is a simple example of how to create in Python a classic Web 3 Tier
 - Application logic is provided by some simple code in Pythoin using Flask (see https://flask.palletsprojects.com/en/2.0.x/)
 - RDS connectivity credentials and path stored using AWS Secret Manager (https://aws.amazon.com/secrets-manager/)
 
-# Installation using AWS Cloud Shell
+# Installation
 
 ## Requirements
 - AWS CLI (see https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html) or just use AWS Cloud Shell (see https://aws.amazon.com/cloudshell/)
