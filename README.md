@@ -26,23 +26,22 @@ This project is a simple example of how to create in Python a classic Web 3 Tier
 - Python 3.x 
 - git
 ## Steps
-- Clone repository
-  -- git clone https://github.com/rluberti/CDK-3TA.git
-- Create Python Virtual Environment
-  -- cd CDK-3TA
-  -- python3 -m venv .venv
-- Run Virtual Environment
-  -- source .venv/bin/activate
-- Install Python packages
-  -- pip3 install -r requirements.txt
-- Check if CDK can create CloudFormation code running:
-  -- cdk synth
-- Create Stack deploying the code on AWS:
-  -- cdk deploy
-  -- It will display the following information:
-     --  
-- Delete Stack
-  -- cdk destroy
+- #Clone repository
+- git clone https://github.com/rluberti/CDK-3TA.git
+- #Create Python Virtual Environment
+- cd CDK-3TA
+- python3 -m venv .venv
+- #Run Virtual Environment
+- source .venv/bin/activate
+- #Install Python packages
+- pip3 install -r requirements.txt
+- #Check if CDK can create CloudFormation code running:
+- cdk synth
+- #Create Stack deploying the code on AWS:
+- cdk deploy
+- #It will display the following information
+- #Delete Stack
+- cdk destroy
 
 
 
