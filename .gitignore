@@ -3,6 +3,8 @@ __pycache__
 .venv
 .vscode
 *.DS_Store
+NOTES.md
+TODO.md
 # CDK asset staging directory
 .cdk.staging
 cdk.out
