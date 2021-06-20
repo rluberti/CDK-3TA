@@ -9,7 +9,7 @@ This project is a simple example of how to create in Python a classic Web 3 Tier
 
 # Features
 
-- Internet public open entrypoint is handle by an Application Load Balancer
+- Internet public open entrypoint is handled by an Application Load Balancer
 - Web/App/DB tiers are on PRIVATE subnets with traffic to internet limited to OUTBOUND only
 - Web and App tiers are in autoscaling (min 2 instances to max 4) based on CPU % usage (target is 40%)
 - DB tier is a RDS MySQL in multi AZ (see https://aws.amazon.com/rds/mysql/)
