@@ -52,6 +52,9 @@ This project is a basic example in Python on how to create a classic Web 3 Tier 
 # Usage
 - Use `http://<CDK-3TA-Stack.WebALBDNS>/` to hit the Web tier only and get its output
 - Use `http://<CDK-3TA-Stack.WebALBDNS>/app` to hit Web tier first, then App tier and get its ouput
-- Use `http://<CDK-3TA-Stack.WebALBDNS>/db` to hit Web tier first, App tier second and DB tier at the end with its output
+- Use `http://<CDK-3TA-Stack.WebALBDNS>/db` to hit Web tier first, App tier second and DB tier at the 
+end with its output
+- Connect via SSM session to any EC2 instance and run utility `stress --cpu 2` to make total CPU utilization spike to over 40% and trigger scaling up to 4 instances. 
+
 
 
