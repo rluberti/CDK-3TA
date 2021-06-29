@@ -75,6 +75,7 @@ def load_db_data():
           
   except Exception as e:
     ret=traceback.format_exc()+"<br>"
+    ret += f"rdsHost={rdsHost} <br>"
 
   return ret+"</p><br>"
 
