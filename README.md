@@ -21,6 +21,7 @@ This project is a basic example in Python on how to create a classic Web 3 Tier 
 - Web and App applications are streaming their custom logs using "Log streams" created in the "CDK-3TA-EC2-LOG-GROUP" Log group on CloudWatch console page.
 - VPC is logging internal network activity via "Flow log" created in "CDK-3TA-VPC-FLOWLOG-GROUP" Log group (see https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html).
 
+![Architecture](doc/3-tier.png)
 
 # Installation
 
